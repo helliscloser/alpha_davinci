@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_davinci.mk
+    $(LOCAL_DIR)/lineage_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_davinci-user \
-    cherish_davinci-userdebug \
-    cherish_davinci-eng
+    lineage_davinci-user \
+    lineage_davinci-userdebug \
+    lineage_davinci-eng
